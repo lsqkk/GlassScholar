@@ -13,16 +13,16 @@ section_visibility:
   education: true
   projects: true
   awards: true
-  publications: false
-  services: false
+  publications: true
+  services: true
   skills: true
   news: true
   repo_board: true
 
 repo_board:
-  owner: yaoyao-liu
-  name: minimal-light
-  url: https://github.com/yaoyao-liu/minimal-light
+  owner: lsqkk
+  name: GlassScholar
+  url: https://github.com/lsqkk/GlassScholar
 
 list_preview_count:
   projects: 5

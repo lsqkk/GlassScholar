@@ -1,0 +1,66 @@
+title: Dr. Ivy Chen
+position: Assistant Professor of Computational Design
+affiliation: Northbridge Institute of Technology
+affiliation_link: https://example.edu/
+email: ivy.chen@example.edu
+
+keywords: academic homepage template, fictional researcher, computational design
+description: A fictional academic profile used to demonstrate the GlassScholar homepage template.
+canonical: https://example.edu/glassscholar-demo
+
+section_visibility:
+  about: true
+  education: true
+  projects: true
+  awards: true
+  publications: false
+  services: false
+  skills: true
+  news: true
+  repo_board: true
+
+repo_board:
+  owner: yaoyao-liu
+  name: minimal-light
+  url: https://github.com/yaoyao-liu/minimal-light
+
+list_preview_count:
+  projects: 5
+  news: 5
+  awards: 3
+
+# 图片设置
+# "avatar" 为个人头像，"favicon" 和 "favicon_dark" 分别用于浅色和深色模式的网站图标
+avatar: https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_woman.jpg # 使用 Wikimedia Commons 上的公开图片
+favicon: ./assets/img/favicon.png  # 浅色模式网站图标
+favicon_dark: ./assets/img/favicon-dark.png  # 深色模式网站图标
+
+# 页脚设置
+# 可以控制是否显示"Powered by Jekyll and Minimal Light theme."的页脚信息
+enable_footnote: false
+
+# 自动深色模式
+# 可以控制是否根据系统设置自动切换深色/浅色主题
+auto_dark_mode: true
+
+# 字体设置
+# 可以选择使用衬线体(Serif)或无衬线体(Sans Serif)字体
+font: "Serif"  # 可选值："Serif" 或 "Sans Serif"
+
+# Google Analytics ID
+# 如果不使用Google Analytics分析工具，请删除此行
+# google_analytics: UA-111540567-4
+
+# 使用远程主题设置
+# 用于GitHub Pages部署，请勿修改此项
+remote_theme: yaoyao-liu/minimal-light
+
+# 排除文件列表
+# 以下文件在生成网站时会被排除，请勿修改
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - minimal-light.gemspec
+  - html_source_file/

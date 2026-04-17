@@ -1,0 +1,22 @@
+main:
+
+  - title: Interfaces for Slow Scholarship in Data-Rich Public Institutions
+    authors: <strong>Ivy Chen</strong>, Rowan Patel, Elena Moreau
+    conference_short: CHI
+    conference: ACM Conference on Human Factors in Computing Systems <strong>(CHI)</strong>, 2026.
+    pdf: https://example.com/demo-paper.pdf
+    code: https://example.com/demo-code
+    bibtex: https://example.com/demo-bibtex
+    image: https://picsum.photos/seed/glassscholar-paper-one/800/500
+    notes: Fictional example
+
+  - title: Visual Provenance Cues for AI-Assisted Climate Briefings
+    authors: Mei Alvarez, <strong>Ivy Chen</strong>, Noor Haddad
+    conference_short: VIS
+    conference: IEEE Visualization Conference <strong>(VIS)</strong>, 2025.
+    pdf: https://example.com/demo-paper-2.pdf
+    code: https://example.com/demo-code-2
+    page: https://example.com/demo-project-page
+    bibtex: https://example.com/demo-bibtex-2
+    notes: Fictional example
+    image: https://picsum.photos/seed/glassscholar-paper-two/800/500

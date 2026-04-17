@@ -1,0 +1,24 @@
+main:
+  - school: Northbridge Institute of Technology
+    program: Ph.D. in Computational Media
+    period: Sept. 2020 - Jun. 2025
+    start_date: 2020-09-01
+    focus: Dissertation work on explainable interfaces for scientific storytelling and collaborative sensemaking.
+    summary: Combined design research, machine learning prototyping, and visualization studies to build interactive tools for climate communication and public-interest scholarship.
+    highlights:
+      - Human-Centered Machine Learning
+      - Visualization Systems
+      - Computational Design Studio
+      - Research Methods in HCI
+
+  - school: Lakeshore University
+    program: B.S. in Data Science and Digital Humanities
+    period: Sept. 2016 - Jun. 2020
+    start_date: 2016-09-01
+    focus: Undergraduate training in statistics, computation, design history, and public-facing digital scholarship.
+    summary: Built a foundation in data analysis, visual communication, and archival interpretation through studio courses, lab work, and interdisciplinary seminars.
+    highlights:
+      - Statistical Modeling
+      - Text Mining
+      - Information Design
+      - Collaborative Studio Practice

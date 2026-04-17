@@ -1,0 +1,16 @@
+main:
+  - category: Conference Service
+    items:
+      - name: Fictional Workshop on Humane Interfaces for Knowledge Work, Program Committee
+        link: https://example.com/
+      - name: Symposium on Public-Interest Visualization, Student Mentoring Chair
+        link: https://example.com/
+      - name: Northbridge Methods Colloquium, Session Organizer
+        link: https://example.com/
+
+  - category: Community Activities
+    items:
+      - name: Open syllabus reading group facilitator
+        link: https://example.com/
+      - name: Reproducible research office hours volunteer
+        link: https://example.com/

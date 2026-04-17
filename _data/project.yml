@@ -1,0 +1,51 @@
+main:
+  - title: Atlas of Urban Heat Diaries
+    date: 2026-03-10
+    attribute: Lab Demonstration Project
+    description: Built an interactive narrative atlas that combines diary excerpts, neighborhood climate indicators, and annotated maps to show how residents describe heat stress in everyday life.
+    tech_stack: TypeScript, D3.js, Mapbox GL JS, Python
+    outcome: Used as a centerpiece example for explaining how GlassScholar can showcase research software and public-facing scholarship.
+    image: https://picsum.photos/seed/glassscholar-atlas/900/600
+
+  - title: Civic Archive Navigator
+    date: 2025-11-18
+    attribute: Digital Humanities Prototype
+    description: Designed a searchable interface for exploring fictional oral-history collections, with faceted browsing, transcript snippets, and visual timelines for curatorial storytelling.
+    tech_stack: Python, Jekyll, Lunr.js, YAML
+    outcome: Demonstrates a template-friendly project entry with concise methods, impact, and technical stack summaries.
+    image: https://picsum.photos/seed/glassscholar-archive/900/600
+
+  - title: Narrative Signals for Climate Briefing
+    date: 2025-07-02
+    attribute: Research Collaboration
+    description: Prototyped a briefing assistant that turns structured climate notes into layered summaries for policy, media, and classroom audiences while preserving uncertainty and provenance.
+    tech_stack: Python, PyTorch, FastAPI, Observable
+    outcome: Produced an internal demo used in workshops on responsible AI-assisted communication.
+    image: https://picsum.photos/seed/glassscholar-climate/900/600
+
+  - title: Speculative Lab Notebook
+    date: 2024-10-01
+    attribute: Teaching Studio Resource
+    description: Created a lightweight publishing workflow for students to document prototypes, failed experiments, and reflection notes in a consistent, versioned format.
+    tech_stack: Markdown, Jekyll, GitHub Actions
+    outcome: Adapted by a graduate studio as its shared documentation system.
+    image: https://picsum.photos/seed/glassscholar-notebook/900/600
+
+  - title: Interactive Seminar Companion
+    date: 2024-05-16
+    attribute: Course Design Project
+    description: Developed a classroom companion site with reading annotations, discussion prompts, and live feedback widgets for seminars on technology and society.
+    tech_stack: HTML, CSS, JavaScript, Firebase
+    outcome: Helped instructors trial more participatory seminar formats in a fictional teaching setting.
+    image: https://picsum.photos/seed/glassscholar-seminar/900/600
+
+  - title: Multilingual Citation Mapper
+    date: 2023-12-08
+    attribute: Research Infrastructure Demo
+    description: Explored how citation patterns shift across language communities by linking translated titles, publication venues, and thematic clusters in an interactive network view.
+    tech_stack: Python, NetworkX, Vega-Lite
+    outcome: Serves as an example of how to present exploratory analysis work on a personal academic homepage.
+    image: https://picsum.photos/seed/glassscholar-citations/900/600
+
+
+

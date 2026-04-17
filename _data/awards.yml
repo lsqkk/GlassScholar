@@ -1,0 +1,25 @@
+main:
+
+  - title: Northbridge Emerging Scholar Fellowship
+    date: 2026-02-15
+    award_description: Faculty seed grant
+    reason: Awarded to support fictional pilot work on explainable visual narratives for environmental communication.
+    image: https://picsum.photos/seed/glassscholar-fellowship/800/500
+
+  - title: Collaborative Teaching Innovation Award
+    date: 2025-09-20
+    award_description: College-level recognition
+    reason: Recognized for designing participatory seminar formats and open teaching materials in a fictional graduate studio.
+    image: https://picsum.photos/seed/glassscholar-teaching/800/500
+
+  - title: Digital Methods Showcase Prize
+    date: 2025-04-12
+    award_description: Best interactive demo
+    reason: Received for an exhibit prototype that translated archival materials into an accessible public interface.
+    image: https://picsum.photos/seed/glassscholar-showcase/800/500
+
+  - title: Public Scholarship Mini-Grant
+    date: 2024-06-28
+    award_description: Competitive internal grant
+    reason: Supported the creation of openly licensed course and outreach materials used throughout this fictional profile.
+    image: https://picsum.photos/seed/glassscholar-grant/800/500

@@ -1,0 +1,36 @@
+about:
+  lead: Dr. Ivy Chen is a fictional researcher created for this demo repository and used to showcase how GlassScholar can present a modern academic homepage without exposing any real personal data.
+  summary: This sample profile blends research, teaching, software, and public scholarship so users can quickly understand how to adapt the template for their own site. Every person, institution, project, and milestone shown here is fictional and included for demonstration only.
+  focus_areas:
+    - Human-centered AI
+    - Scientific visualization
+    - Computational design
+    - Digital archives
+    - Research software
+
+skills:
+  - title: Programming Languages
+    items:
+      - Python (data analysis and research tooling)
+      - TypeScript / HTML / CSS (interactive scholarship)
+      - Julia (scientific prototyping)
+      - SQL (structured data workflows)
+
+  - title: Research Methods
+    items:
+      - Mixed-methods study design
+      - Human-computer interaction prototyping
+      - Qualitative coding and synthesis
+      - Machine learning evaluation
+
+  - title: Frameworks & Tools
+    items:
+      - PyTorch, Jupyter, D3.js, and Observable
+      - Git, GitHub Actions, and Jekyll
+      - Figma, LaTeX, and citation workflows
+
+  - title: Languages
+    items:
+      - English (fluent)
+      - Mandarin Chinese (professional)
+      - French (reading knowledge)

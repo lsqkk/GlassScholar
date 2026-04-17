@@ -1,0 +1,24 @@
+main:
+  - date: 2026-03-10
+    title: Demo profile refreshed for template release
+    description: The homepage content was rewritten as a fully fictional example to make this repository safe to fork as a public template.
+
+  - date: 2026-02-15
+    title: Emerging Scholar Fellowship announced
+    description: A fictional internal fellowship now appears in the awards section to demonstrate how grants and honors can be presented.
+
+  - date: 2025-11-18
+    title: Civic Archive Navigator added to selected projects
+    description: The sample profile now includes a digital humanities project card with a public-interest research narrative.
+
+  - date: 2025-07-02
+    title: Climate briefing prototype featured in workshop materials
+    description: A fictional research collaboration was added to show how AI and communication projects can be described concisely on the homepage.
+
+  - date: 2024-10-01
+    title: Teaching notebook workflow published
+    description: The demo portfolio now includes a classroom documentation project for users who want more than publications on their site.
+
+  - date: 2024-05-16
+    title: Seminar companion becomes a reusable template example
+    description: Another fictional milestone was added to illustrate timeline-based project storytelling.

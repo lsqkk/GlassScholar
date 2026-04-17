@@ -31,7 +31,7 @@ list_preview_count:
 
 # 图片设置
 # "avatar" 为个人头像，"favicon" 和 "favicon_dark" 分别用于浅色和深色模式的网站图标
-avatar: https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_woman.jpg # 使用 Wikimedia Commons 上的公开图片
+avatar: ./assets/img/avatar.png # 使用 Wikimedia Commons 上的公开图片
 favicon: ./assets/img/favicon.png  # 浅色模式网站图标
 favicon_dark: ./assets/img/favicon-dark.png  # 深色模式网站图标
 

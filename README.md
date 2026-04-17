@@ -1,68 +1,70 @@
-# GlassScholar 学术主页
+# GlassScholar Academic Homepage
 
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
 
-这是一个基于 [Minimal Light](https://github.com/yaoyao-liu/minimal-light) 深度改造的学术主页，定位为更现代、数据驱动、适合本科生到研究人员的个人主页方案。它保留了 Jekyll + GitHub Pages 的轻量部署体验，同时补上了项目经历、竞赛获奖、教育卡片、时间轴、毛玻璃 UI、交互增强和模块化配置等能力。
+EN / [简体中文](README_cn.md)
 
-这个仓库当前已经整理为适合公开展示和继续二次开发的版本，默认内容使用一套可直接替换的示例数据，方便你 Fork 后快速改成自己的主页。
+This is an academic homepage deeply rebuilt from [Minimal Light](https://github.com/yaoyao-liu/minimal-light). It aims to be a more modern, data-driven personal page solution suitable for everyone from undergraduates to researchers. It retains the lightweight deployment experience of Jekyll + GitHub Pages while adding capabilities such as project experience, competition awards, education cards, timelines, glassmorphism UI, interactive enhancements, and modular configuration.
 
-**点击查看 Demo 👇**
+This repository is already organized for public showcase and further customization. The default content uses a set of sample data that you can directly replace, making it easy to fork and quickly turn into your own homepage.
+
+**Click to see the demo 👇**
 
 [![1776421447735-3ex3o1.png](https://img.130923.xyz/pic/2026/1776421447735-3ex3o1.png)](https://lsqkk.github.io/GlassScholar)
 
-## 适合谁？
+## Who is it for?
 
-- 想快速搭建个人学术主页的本科生、研究生与青年研究者
-- 还没有正式论文，但也已经有项目、竞赛、博客或工程实践积累的同学
-- 希望保留静态站点的轻量部署方式，同时获得更完整视觉和交互体验的人
+- Undergraduates, graduate students, and early-career researchers who want to quickly build a personal academic homepage
+- Students who may not have formal publications yet but have accumulated projects, competitions, blogs, or engineering practice
+- Those who want to keep the lightweight static site deployment while enjoying a richer visual and interactive experience
 
-## 当前版本特性
+## Current Version Features
 
-### 内容结构
+### Content Structure
 
-- 支持 `About Me`、`Technical Skills`、`Education`、`Project Experience`、`Competitions & Awards`、`News`、`Publications`、`Services`、`Repository Board`，并全部模块化
-- 主页主结构集中在 `index.md`，具体内容由 `_data/*.yml` 驱动
-- 教育经历、项目、新闻、服务、技能等都支持独立数据维护
-- 通过 `_config.yml` 控制模块显示与隐藏
+- Supports `About Me`, `Technical Skills`, `Education`, `Project Experience`, `Competitions & Awards`, `News`, `Publications`, `Services`, and `Repository Board` – all modularized
+- The main homepage structure is defined in `index.md`, with specific content driven by `_data/*.yml`
+- Education, projects, news, services, skills, etc., each have their own data files for easy maintenance
+- Module visibility is controlled via `_config.yml`
 
-### UI 与交互
+### UI & Interaction
 
-- 项目经历采用倒序时间轴布局，默认展示最近 5 条，支持展开/收起
-- 新闻使用独立风格时间轴，与项目区块保持统一但不完全重复
-- 教育经历使用卡片式展示，并支持整卡点击跳转
-- 竞赛与获奖区统一图片宽度，文本对齐更稳定
-- 整页加入鼠标跟随环境光晕与轻微背景渐变
-- 毛玻璃卡片采用半透明背景、模糊、内高光和环境光照亮效果
-- 所有图片支持点击放大弹窗，支持淡入缩放、点击空白关闭、右上角关闭、`Esc` 关闭
-- 左侧个人信息栏在桌面端固定显示，浏览长页面时不会跟随滚动离开视野
-- 顶部个人信息区包含循环打字机动画
+- Projects are displayed in a reverse-chronological timeline, showing the latest 5 entries by default with expand/collapse support
+- News uses a distinct timeline style that remains consistent with the project section without being repetitive
+- Education is presented as clickable cards, with the whole card linking to the institution page
+- Competitions & awards section has uniform image widths and stable text alignment
+- The entire page features a mouse-following ambient glow and subtle background gradients
+- Glassmorphism cards use semi-transparent backgrounds, blur, inner highlights, and ambient lighting effects
+- All images support click-to-enlarge lightbox with fade-in zoom, click outside to close, close button in the top-right corner, and `Esc` key to close
+- The left sidebar (profile info) stays fixed on desktop, remaining visible while scrolling through long pages
+- The top profile area includes a looping typewriter animation
 
-### 开源与仓库展示
+### Open Source & Repository Display
 
-- 页尾可通过 GitHub API 动态拉取仓库看板
-- 默认仓库看板配置可直接在 `_config.yml` 中替换
-- 明确标注该模板是基于开源 Minimal Light 主题的深度改造版本
+- The footer can dynamically fetch a repository board via the GitHub API
+- The default repository board configuration can be directly replaced in `_config.yml`
+- Clear attribution that this template is a deep modification of the open-source Minimal Light theme
 
-### 工程与部署
+### Engineering & Deployment
 
-- 保持 Jekyll / GitHub Pages 静态部署方案
-- 自动适应浅色 / 深色模式
-- 保留 SEO 基础配置、社交链接、头像、 favicon、自定义字体等能力
-- 支持本地 `bundle exec jekyll serve --livereload` 预览
+- Maintains the Jekyll / GitHub Pages static deployment approach
+- Automatically adapts to light/dark mode
+- Retains basic SEO configuration, social links, avatar, favicon, custom fonts, etc.
+- Supports local preview with `bundle exec jekyll serve --livereload`
 
-## 项目结构
+## Project Structure
 
 ```text
 .
-├── _config.yml                 # 站点配置、模块显示控制、仓库看板配置
+├── _config.yml                 # Site config, module visibility, repo board settings
 ├── _data
-│   ├── awards.yml              # 获奖数据
-│   ├── education.yml           # 教育经历数据
-│   ├── news.yml                # 新闻/动态数据
-│   ├── profile.yml             # About 与 Skills 数据
-│   ├── project.yml             # 项目经历数据
-│   ├── publications.yml        # 论文数据
-│   └── services.yml            # 服务/审稿数据
+│   ├── awards.yml              # Awards data
+│   ├── education.yml           # Education data
+│   ├── news.yml                # News/updates data
+│   ├── profile.yml             # About & Skills data
+│   ├── project.yml             # Project experience data
+│   ├── publications.yml        # Publications data
+│   └── services.yml            # Services/reviewing data
 ├── _includes
 │   ├── about.md
 │   ├── awards.md
@@ -75,7 +77,7 @@
 │   ├── services-section.md
 │   └── skills.md
 ├── _layouts
-│   └── homepage.html           # 主页布局模板
+│   └── homepage.html           # Homepage layout template
 ├── _sass
 │   ├── minimal-light.scss
 │   └── minimal-light-no-dark-mode.scss
@@ -86,59 +88,59 @@
 │   ├── img
 │   ├── files
 │   └── js
-│       └── homepage-ui.js      # 展开收起、光晕、打字机、图片弹窗、GitHub API 看板
-└── index.md                    # 主页模块入口
+│       └── homepage-ui.js      # Expand/collapse, glow, typewriter, lightbox, GitHub API board
+└── index.md                    # Homepage module entry
 ```
 
-## 快速开始
+## Quick Start
 
-### 方式一：直接 Fork
+### Option 1: Fork directly
 
-1. Fork 本仓库到你的 GitHub 账号
-2. 将仓库名改为 `你的用户名.github.io`，或按你的 Pages 方案命名
-3. 在 GitHub Pages 中启用部署
-4. 修改 `_config.yml` 与 `_data/*.yml` 中的内容
+1. Fork this repository to your GitHub account
+2. Rename the repository to `your-username.github.io`, or name it as needed for your Pages setup
+3. Enable deployment in GitHub Pages
+4. Modify the content in `_config.yml` and `_data/*.yml`
 
-### 方式二：本地预览后再部署
+### Option 2: Preview locally before deploying
 
-安装 Ruby 后，在项目目录执行：
+After installing Ruby, run in the project directory:
 
 ```bash
 bundle install
 bundle exec jekyll serve --livereload
 ```
 
-浏览器访问：
+Open in your browser:
 
 ```text
 http://127.0.0.1:4000/
 ```
 
-如果只想生成静态文件：
+To only generate static files:
 
 ```bash
 bundle exec jekyll build
 ```
 
-更多细节和疑难排查，可参阅原版 [Minimal Light](https://github.com/yaoyao-liu/minimal-light) 主题文档。
+For more details and troubleshooting, refer to the original [Minimal Light](https://github.com/yaoyao-liu/minimal-light) theme documentation.
 
-## 如何编辑内容
+## How to Edit Content
 
-### 个人信息与技能
+### Personal Info & Skills
 
-编辑：
+Edit:
 
 - `_config.yml`
 - `_data/profile.yml`
 
-其中：
+Where:
 
-- `_config.yml` 控制姓名、学校、头像、邮箱、社交链接、模块显示开关
-- `_data/profile.yml` 控制 `About Me` 与 `Technical Skills`
+- `_config.yml` controls name, institution, avatar, email, social links, and module visibility
+- `_data/profile.yml` controls `About Me` and `Technical Skills`
 
-### 教育经历
+### Education
 
-编辑 `_data/education.yml`，支持字段：
+Edit `_data/education.yml`. Supported fields:
 
 - `school`
 - `program`
@@ -149,35 +151,35 @@ bundle exec jekyll build
 - `link`
 - `highlights`
 
-### 项目经历
+### Project Experience
 
-编辑 `_data/project.yml`，支持：
+Edit `_data/project.yml`. Supports:
 
-- 更具体的 `date`
-- 项目标题、描述、技术栈、结果、图片、跳转链接
+- Detailed `date`
+- Project title, description, tech stack, outcomes, image, and link
 
-项目区会自动按日期倒序显示。
+Projects are automatically sorted in reverse chronological order.
 
-### 新闻动态
+### News & Updates
 
-编辑 `_data/news.yml`，按日期维护即可。
+Edit `_data/news.yml` and maintain entries by date.
 
-### 获奖经历
+### Awards
 
-编辑 `_data/awards.yml`。
+Edit `_data/awards.yml`.
 
-### 论文与服务
+### Publications & Services
 
-编辑：
+Edit:
 
 - `_data/publications.yml`
 - `_data/services.yml`
 
-这两个模块在当前版本默认是隐藏的，如需启用，只需修改 `_config.yml` 中的开关。
+These two modules are hidden by default in the current version. To enable them, simply toggle the switches in `_config.yml`.
 
-## 模块显示控制
+## Module Visibility Control
 
-当前推荐通过 `_config.yml` 统一控制各模块显示状态：
+It is recommended to control module visibility centrally via `_config.yml`:
 
 ```yaml
 section_visibility:
@@ -192,9 +194,9 @@ section_visibility:
   repo_board: true
 ```
 
-## 仓库看板配置
+## Repository Board Configuration
 
-页尾 GitHub API 仓库看板也通过 `_config.yml` 配置：
+The GitHub API repository board in the footer is also configured via `_config.yml`:
 
 ```yaml
 repo_board:
@@ -203,27 +205,27 @@ repo_board:
   url: https://github.com/yaoyao-liu/minimal-light
 ```
 
-你可以替换成自己的仓库地址，让页面自动展示你的项目仓库数据。
+You can replace this with your own repository details, and the page will automatically display your project repository data.
 
-## 额外说明
+## Additional Notes
 
-- 当前仓库中的默认人物、项目、经历与动态内容已经整理为可直接替换的示例数据，方便作为公开仓库展示
-- 如需部署为你自己的站点，优先替换 `_config.yml` 与 `_data/*.yml`
-- 如果你有自己的头像、简历或 PDF 附件，再把对应资源放回 `assets/img` 或 `assets/files` 即可
+- The default person, project, experience, and news content in this repository are organized as sample data that can be directly replaced, making it suitable for public repository display
+- To deploy as your own site, prioritize replacing `_config.yml` and `_data/*.yml`
+- If you have your own avatar, CV, or PDF attachments, place the corresponding files in `assets/img` or `assets/files`
 
-## 基于的开源项目
+## Based on Open Source Projects
 
-本项目建立在以下开源工作的基础上：
+This project builds upon the following open-source work:
 
 - [yaoyao-liu/minimal-light](https://github.com/yaoyao-liu/minimal-light)
 - [pages-themes/minimal](https://github.com/pages-themes/minimal)
 - [orderedlist/minimal](https://github.com/orderedlist/minimal)
 - [al-folio](https://github.com/alshedivat/al-folio)
 
-## 许可证
+## License
 
-本项目沿用原主题相关许可证体系，原始主题采用 [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) 许可证。
+This project inherits the licensing system of the original theme. The original theme is licensed under [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE).
 
-## 致谢
+## Acknowledgements
 
-如果这个模板对你有帮助，欢迎 Star、Fork，或继续按自己的方向深度改造。它很适合作为一个轻量但不简陋的学术主页起点。
+If this template helps you, feel free to Star, Fork, or continue to customize it in your own direction. It works great as a lightweight yet not简陋 (bare-bones) starting point for an academic homepage.
